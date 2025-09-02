@@ -17,20 +17,14 @@ repository     : "markoa24-portfolio/markagban.github.io"
 author:
   avatar     : "profile.png"
   name       : "Mark Agban"
-  pronouns   :
-  bio        : "UCLA MS Aerospace • Subsystem Design • Manufacturing • Accessibility engineering."
+  bio        : "B.S. Aerospace Engineering, UCLA — design & manufacturing. Go-kart build and accessibility engineering."
   location   : "Los Angeles, CA"
-  employer   : "Lockheed Martin / UCLA"
-  uri        :
+  employer   : ""          # leave blank to hide the employer line entirely
   email      : "markagban@gmail.com"
 
-  # Repositories and software development
-  github     : "markoa24-portfolio"
-
-  # Social media (fill any you want)
-  linkedin   : "markagban"
-  bluesky    :
-  twitter    :
+  github     : "markoa24-portfolio"   # or your actual GitHub username
+  linkedin   : "markagban"            # your LinkedIn handle
+ 
 
 # --- Publication Categories (optional text labels) ---
 publication_category:
