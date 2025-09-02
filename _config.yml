@@ -9,7 +9,7 @@ title          : "Mark Agban — Engineering Portfolio"
 title_separator: "-"
 name           : &name "Mark Agban"
 description    : &description "Aerospace engineer — design, manufacturing, and hands-on projects."
-url            : "https://markoa24-portfolio.github.io"   # host for a project site
+url            : "https://markoa24-portfolio.github.io"   # host for this project site
 baseurl        : "/markagban.github.io"                   # repo name with leading slash
 repository     : "markoa24-portfolio/markagban.github.io"
 
@@ -19,14 +19,19 @@ author:
   name       : "Mark Agban"
   bio        : "B.S. Aerospace Engineering, UCLA — design & manufacturing. Go-kart build and accessibility engineering."
   location   : "Los Angeles, CA"
-  employer   : ""          # leave blank to hide the employer line entirely
+  employer   : ""                  # leave blank to hide this line
+  uri        :
   email      : "markagban@gmail.com"
 
-  github     : "markoa24-portfolio"   # or your actual GitHub username
-  linkedin   : "markagban"            # your LinkedIn handle
- 
+  # Repositories and software development
+  github     : "markoa24-portfolio"
 
-# --- Publication Categories (optional text labels) ---
+  # Social media
+  linkedin   : "markagban"
+  bluesky    :
+  twitter    :
+
+# --- Publication Categories (labels) ---
 publication_category:
   books:
     title: "Books"
@@ -44,7 +49,7 @@ read_more          : "disabled"
 talkmap_link       : false
 
 comments:
-  provider         :    # false (default), "disqus", "discourse", etc.
+  provider         :
   disqus:
     shortname      :
   discourse:
