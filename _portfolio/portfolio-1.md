@@ -1,7 +1,32 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Custom Go-Kart Build"
+excerpt: "Designed and built a gasoline-powered go-kart from scratch with a $2,000 budget. Led engine selection, CAD chassis design, material selection, and fabrication planning."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+## Custom Go-Kart Build
+
+**Context:**  
+Designed and built a gasoline-powered go-kart from scratch with my brother under a $2,000 budget. Goal was to create a single-seater kart using a torque converter system.
+
+**My Role:**  
+- Led engine selection (trade study: Predator 212 vs Tillotson vs Lifan).  
+- Designed chassis using SolidWorks Weldments with 1"x1" A513 square tubing.  
+- Performed cut list optimization and planned fabrication steps.  
+- Selected materials and verified axle clearance with the engine plate.  
+
+**Process:**  
+- CAD modeling and chassis structural planning.  
+- Evaluated torque converter vs gearbox.  
+- Planned welding and fabrication workflow.  
+
+**Outcome (In Progress):**  
+- CAD model finalized and validated.  
+- Material list created and tubing length calculated.  
+- Ready for fabrication (cutting + welding next).  
+
+![Go-Kart CAD](../images/go-kart-cad.png)  
+*(Add actual CAD screenshot or build photo here later)*  
+
+**Reflection:**  
+This project taught me about design-for-manufacturing, budget-driven engineering, and efficient use of materials. It also gave hands-on experience in CAD, trade studies, and planning fabrication for real-world builds.
