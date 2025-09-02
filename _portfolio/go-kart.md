@@ -59,4 +59,4 @@ Single-seat, four-stroke kart built as a hands-on exercise in **DFM**, packaging
 
 ## Near-Term To-Dos
 - **Prep/cut** tube, dry-fit, and **tack** (balanced sequence).  
-- Weld frame → add mounts/tabs → assemble axle/steering → engine/TAV alignment → brake & cable routing → test. :contentReference[oaicite:13]{index=13}
+- Weld frame → add mounts/tabs → assemble axle/steering → engine/TAV alignment → brake & cable routing → test. :contentReference[oaicite:13]{index=13} 
