@@ -1,0 +1,20 @@
+<!-- _includes/portfolio-grid.html -->
+<div id="projects" class="projects-grid">
+  {% assign items = site.portfolio %}
+  {% for p in items %}
+    <a class="project-card" href="{{ site.baseurl }}{{ p.url }}">
+      <div class="project-thumb" style="background-image:url('{{ site.baseurl }}{{ p.thumbnail | default: '/images/placeholder.jpg' }}');"></div>
+      <div class="project-body">
+        <h3 class="project-title">{{ p.title }}</h3>
+        <p class="project-excerpt">{{ p.excerpt }}</p>
+        {% if p.tags %}
+          <div class="project-tags">
+            {% for t in p.tags %}
+              <span class="tag">{{ t }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </a>
+  {% endfor %}
+</div>
