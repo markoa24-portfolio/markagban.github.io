@@ -5,7 +5,9 @@ collection: portfolio
 ---
 
 ## Overview
-Single-seat, **live-axle** kart designed for reliability and straightforward fabrication: a **1"×1"×.120" A513 square-tube weldment chassis**, 212 cc four-stroke with **electric start**, and a **30-series torque converter** to #420 chain. This build emphasizes **packaging/clearance checks**, a **cut-list driven workflow**, and a **budget-first manufacturing plan** done in-house with a chop saw and angle grinder rather than outsourcing. 
+Single-seat, **live-axle** kart engineered for dependable weekend use and straightforward maintenance. Power comes from a **212 cc four-stroke with electric start** into a **30-series torque converter** and **#420 chain**. A **square-tube weldment** chassis provides stiffness and repeatable geometry for steering and braking, and the layout is built around adult ergonomics, chain/brake clearances, and service access.
+
+To keep cost and control in our hands, the entire build is **fabricated in-house** with simple shop tooling rather than outsourced—part of the learning goal of taking a design from CAD to a running vehicle. I also implemented a **custom push-to-start** integrated with the engine’s ES circuit (plus a coil **kill-switch** for safety).
 
 ## Key Specs
 - **Engine:** 212 cc 4-stroke (electric start) with recoil backup  
