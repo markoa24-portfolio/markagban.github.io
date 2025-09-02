@@ -1,14 +1,9 @@
-# _data/navigation.yml
-
 main:
   - title: "About"
     url: /about/
-
   - title: "Projects"
-    url: /portfolio/
-
+    url: /#projects
   - title: "CV"
     url: /cv/
-
   - title: "Contact"
     url: /contact/
