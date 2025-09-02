@@ -1,43 +1,38 @@
 ---
+# required front matter so Jekyll processes this file
 ---
 
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
+@import "academic"; /* keep theme base */
 
-@import
-    "vendor/breakpoint/breakpoint",
-
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
-
-    "include/mixins",
-    "vendor/susy/susy",
-
-    "layout/reset",
-    "layout/base",
-
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
-
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-;
+/* projects grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 1.25rem;
+}
+.project-card {
+  display: block;
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 16px rgba(0,0,0,.06);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.project-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.1); }
+.project-thumb {
+  padding-top: 56%;
+  background-size: cover;
+  background-position: center;
+}
+.project-body { padding: 14px 16px; }
+.project-title { margin: 0 0 6px; font-size: 1.05rem; }
+.project-excerpt { margin: 0 0 10px; color: #444; font-size: .95rem; }
+.project-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag {
+  font-size: .72rem; line-height: 1;
+  border: 1px solid #e2e2e2; border-radius: 999px;
+  padding: 5px 8px; color: #555; background: #fafafa;
+}
