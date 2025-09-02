@@ -16,7 +16,7 @@ repository     : "markoa24-portfolio/markagban.github.io"
 # --- Sidebar / Author Profile ---
 author:
   name  : "Mark Agban"
-  bio   : "B.S. Aerospace Engineering, UCLA — design & manufacturing. Go-kart build and accessibility engineering."
+  bio: "B.S. Aerospace (UCLA). Mechanical design & manufacturing — CAD → cuts → welds, DFM, rigorous packaging, and clear build docs."
   location : "Los Angeles, CA"
   employer : ""        # keep blank to hide
   email : "markagban@gmail.com"
