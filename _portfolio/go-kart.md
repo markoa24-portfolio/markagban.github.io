@@ -35,7 +35,7 @@ Single-seat, four-stroke kart built as a hands-on exercise in **DFM**, packaging
 
 ## Electrical & Safety
 - **Push-to-start** path added to factory key-start using proper **fuse sizing** and relay logic.  
-- **Ignition kill-switch** for rapid shutdown; plan a main fuse near battery positive. :contentReference[oaicite:9]{index=9}
+- **Ignition kill-switch** for rapid shutdown; plan a main fuse near battery positive. 
 
 ## BOM (selected highlights)
 - Engine (Lifan 212 ES), TAV-30 kit, motor plate  
