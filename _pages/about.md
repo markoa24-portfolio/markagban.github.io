@@ -1,16 +1,25 @@
 ---
-title: "About Me"
+title: "About"
 permalink: /about/
+author_profile: true
 ---
 
-# About Me
+Hi, I’m **Mark Agban** — an **Aerospace Engineering B.S. (UCLA)** focused on **design, manufacturing, and hands-on builds**.
 
-Hi, I’m **Mark Agban**, an Aerospace Engineering graduate student at UCLA and currently a Subsystem Design Engineer at Lockheed Martin.  
+I like turning ideas into working hardware. Recent work includes a **custom go-kart build** (engine trade study, SolidWorks chassis weldments, cut-list optimization) and **accessibility engineering** that makes technical documents usable for everyone.
 
-I’ve worked on projects ranging from aircraft harness design and bracket installation to accessibility engineering at UCLA, and I’m passionate about aerospace, manufacturing, and hands-on design.  
+### What I’m working on
+- **Custom Go-Kart Build** — SolidWorks weldments (1"×1" A513), torque-converter drivetrain, fabrication plan & cut list.  
+- **Accessibility Engineering (UCLA DCP)** — PDF remediation workflows, alt-text standards, and QA.  
+- **Shop & controls projects** — HID-controlled access for machines (scanner + solenoid lock), fixtures, and small fab work.
 
-This site is a growing portfolio of my engineering work, including:  
-- **Custom Go-Kart Build** (design + fabrication in progress)  
-- **Bruin Racing strain gauge system**  
-- **Haas Automation HID-controlled access system**  
-- **Accessibility engineering for UCLA’s Disabilities & Computing Program**  
+### Skills
+- **CAD & Analysis:** SolidWorks (weldments, drawings), basic FEA, Ansys (intro CFD), MATLAB  
+- **Manufacturing:** Mills, drill press, bandsaw/cut-off saw, basic welding/fixturing, 3D printing  
+- **Electronics & Controls:** Arduino basics, wiring, relays/solenoids, SD logging  
+- **Documentation:** BOMs, build logs, process instructions, accessibility remediation
+
+### Education
+- **B.S., Aerospace Engineering — UCLA**
+
+See **[Projects]({{ site.baseurl }}/portfolio/)** for details and updates.
