@@ -36,3 +36,27 @@
   border: 1px solid #e2e2e2; border-radius: 999px;
   padding: 5px 8px; color: #555; background: #fafafa;
 }
+/* --- hero tweaks (buttons already themed by AcademicPages) --- */
+.page__content > p:first-of-type {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* --- experience cards --- */
+.xp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  gap: 16px;
+  margin-top: 0.5rem;
+}
+.xp-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.06);
+  padding: 16px 18px;
+}
+.xp-head { margin-bottom: 6px; }
+.xp-head h3 { margin: 0 0 2px; font-size: 1.05rem; }
+.xp-role { color: #666; font-size: .9rem; }
+.xp-list { margin: 8px 0 0; padding-left: 18px; }
+.xp-list li { margin-bottom: 6px; }
