@@ -1,62 +1,47 @@
 ---
-# required front matter so Jekyll processes this file
+# Jekyll should process this file
 ---
 
-@import "academic"; /* keep theme base */
+@import "academic";
 
-/* projects grid */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 16px;
-  margin-top: 1.25rem;
+/* ========== Design System ========== */
+:root{
+  --bg:#ffffff; --text:#0f172a; --muted:#475569; --card:#ffffff; --line:#e5e7eb;
+  --brand:#0ea5e9; --radius:14px; --shadow:0 6px 20px rgba(0,0,0,.08);
 }
-.project-card {
-  display: block;
-  background: #fff;
-  border-radius: 14px;
-  overflow: hidden;
-  text-decoration: none;
-  color: inherit;
-  box-shadow: 0 4px 16px rgba(0,0,0,.06);
-  transition: transform .15s ease, box-shadow .15s ease;
+:root[data-theme="dark"]{
+  --bg:#0b1220; --text:#f1f5f9; --muted:#94a3b8; --card:#0f172a; --line:#1f2937;
+  --shadow:0 8px 24px rgba(0,0,0,.45);
 }
-.project-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.1); }
-.project-thumb {
-  padding-top: 56%;
-  background-size: cover;
-  background-position: center;
-}
-.project-body { padding: 14px 16px; }
-.project-title { margin: 0 0 6px; font-size: 1.05rem; }
-.project-excerpt { margin: 0 0 10px; color: #444; font-size: .95rem; }
-.project-tags { display: flex; flex-wrap: wrap; gap: 6px; }
-.tag {
-  font-size: .72rem; line-height: 1;
-  border: 1px solid #e2e2e2; border-radius: 999px;
-  padding: 5px 8px; color: #555; background: #fafafa;
-}
-/* --- hero tweaks (buttons already themed by AcademicPages) --- */
-.page__content > p:first-of-type {
-  font-size: 1.05rem;
-  line-height: 1.6;
-}
+html,body{background:var(--bg);color:var(--text);}
+.page__content > p:first-of-type{font-size:1.1rem;line-height:1.7;}
 
-/* --- experience cards --- */
-.xp-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-  gap: 16px;
-  margin-top: 0.5rem;
+/* ========== Project Grid ========== */
+.projects-grid{
+  display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:16px; margin-top:1rem;
 }
-.xp-card {
-  background: #fff;
-  border-radius: 14px;
-  box-shadow: 0 4px 16px rgba(0,0,0,.06);
-  padding: 16px 18px;
+.project-card{
+  display:block; background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow);
+  overflow:hidden; text-decoration:none; color:inherit; transition:transform .15s, box-shadow .15s;
 }
-.xp-head { margin-bottom: 6px; }
-.xp-head h3 { margin: 0 0 2px; font-size: 1.05rem; }
-.xp-role { color: #666; font-size: .9rem; }
-.xp-list { margin: 8px 0 0; padding-left: 18px; }
-.xp-list li { margin-bottom: 6px; }
+.project-card:hover{ transform:translateY(-2px); box-shadow:0 12px 28px rgba(2,8,23,.18); }
+.project-thumb{ padding-top:56%; background-size:cover; background-position:center; }
+.project-body{ padding:14px 16px; }
+.project-title{ margin:0 0 6px; font-size:1.05rem; }
+.project-excerpt{ margin:0 0 10px; color:var(--muted); font-size:.95rem; }
+.project-tags{ display:flex; flex-wrap:wrap; gap:6px; }
+.tag{ font-size:.72rem; line-height:1; border:1px solid var(--line); border-radius:999px; padding:5px 8px; color:var(--muted); background:transparent; }
+
+/* ========== Experience Cards ========== */
+.xp-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }
+.xp-card{ background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); padding:16px 18px; }
+.xp-head{ margin-bottom:6px; }
+.xp-head h3{ margin:0 0 2px; font-size:1.05rem; }
+.xp-role{ color:var(--muted); font-size:.9rem; }
+.xp-list{ margin:8px 0 0; padding-left:18px; }
+.xp-list li{ margin-bottom:6px; }
+
+/* ========== Reveal ========== */
+[data-reveal]{ opacity:0; transform:translateY(12px); transition:all .45s ease; }
+.reveal-in{ opacity:1; transform:none; }
