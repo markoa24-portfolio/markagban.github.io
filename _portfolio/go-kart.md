@@ -1,8 +1,8 @@
 ---
 title: "Custom Go-Kart Build"
-excerpt: "Live-axle kart: square-tube weldment chassis, 212cc ES power, TAV-30, practical in-house fabrication, and custom push-to-start."
+excerpt: "Live-axle kart: square-tube weldment chassis, 212cc ES power, TAV-30, in-house fabrication, and custom push-to-start."
 collection: portfolio
-thumbnail: /images/go-kart-thumb.jpg   # add an image later; placeholder is okay for now
+thumbnail: /images/go-kart-thumb.jpg
 tags: [mechanical, DFM, CAD]
 ---
 
