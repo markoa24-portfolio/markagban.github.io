@@ -18,8 +18,8 @@ author_profile: true
 
 ### Custom Go-Kart (live axle, in progress)
 **Platform:** 212 cc **electric-start** four-stroke → **30-series TAV** → **1″ live axle**; **square-tube weldment** chassis (1″×1″×.120″ A513).  
-**Design & DFM:** CAD-driven packaging for chain/brake/steering and ergonomics; **kerf-aware cut-list** & optimized cut order; jig/fixture strategy and balanced tack sequence for squareness.  
-**Integration:** **Custom push-to-start** integrated with the ES circuit; **coil kill-switch** and fusing; serviceable layout and cable routing.  
+**Design & DFM:** CAD-driven packaging (chain/brake/steering, ergonomics); **kerf-aware cut-list** & optimized cut order; jig/fixture strategy and balanced tack sequence for squareness.  
+**Integration:** **Custom push-to-start** integrated with ES circuit; **coil kill-switch** and fusing; serviceable layout and cable routing.  
 **Why:** Built **in-house** to control cost and accelerate learning—from CAD → cuts → welds → assembly and test.
 
 ---
@@ -37,14 +37,14 @@ author_profile: true
 - Contributed to documentation updates to align processes with aerospace requirements.
 
 ### GHPR — **<YOUR ROLE / PROGRAM>**
-- **<WHAT YOU BUILT / ANALYZED>**, using **<tools / methods>**, leading to **<impact/result with numbers if possible>**.  
-- **<Ownership or leadership>**: **<designed/implemented/validated X>**; coordinated with **<team/partners>**; delivered **<artifact/report/demo>**.  
-- **<Any testing, data, or outcome>**: **<metrics, reliability, speed, accuracy, cost saved, etc.>**.
+- **<What you built/analyzed>** using **<tools/methods>**, resulting in **<impact/metric>**.  
+- **<Ownership/leadership>** on **<designed/implemented/tested X>** with **<team/partners>**; delivered **<artifact/report/demo>**.  
+- **<Testing/data/outcome>** with **<quantified results if available>**.
 
 ### SHINE — **<YOUR ROLE / PROGRAM>**
-- **<Project focus>**: **<designed/built/tested>** **<system/component>**; **<method/experiment>**; **<result/insight>**.  
-- Documented process and findings; presented to **<audience>**; incorporated feedback into **<rev/iteration>**.  
-- **<Tools/skills>**: **<CAD/analysis/coding/lab techniques>** used to achieve **<measurable outcome>**.
+- **<Project focus>** — **<designed/built/tested>** **<system/component>** with **<method/experiment>**; **<result/insight>**.  
+- Documented and presented to **<audience>**; iterated based on feedback.  
+- **<Tools/skills>**: **<CAD/analysis/coding/lab techniques>** → **<what it enabled>**.
 
 ### UCLA Disabilities & Computing Program — Lead Accessibility Engineer
 - Built scalable **PDF remediation** workflows (headings, reading order, alt text) that improved pass rates and reduced rework cycles.  
