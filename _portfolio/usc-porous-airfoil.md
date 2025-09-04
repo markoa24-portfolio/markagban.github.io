@@ -2,7 +2,7 @@
 title: "Porous Airfoil Flow Study (USC Viterbi)"
 excerpt: "Varying porous-hole spacing/angle on a NACA 0012; CAD models, ANSYS sims, and water-channel testing."
 collection: portfolio
-thumbnail: /images/shine-poster.jpg
+thumbnail: /images/shine-poster.png   # <- use .jpg here only if you uploaded .jpg
 tags: [aerodynamics, research, CAD]
 ---
 
