@@ -5,62 +5,21 @@ layout: single
 author_profile: true
 ---
 
-<section id="about" class="hero-about" data-reveal>
-  <div class="about-grid">
-    <aside class="about-aside">
-      <h1 class="about-name">Mark Agban</h1>
-      <h2 class="about-role">Aerospace / Mechanical Engineer</h2>
+## About
+<div id="about"></div>
 
-      <nav class="about-nav">
-        <a href="#about">ABOUT</a>
-        <a href="#experience">EXPERIENCE</a>
-        <a href="#projects">PROJECTS</a>
-      </nav>
-    </aside>
+I’m **Mark Agban** — **B.S. Aerospace Engineering (UCLA)** — and I like turning ideas into working hardware. My sweet spot is taking a concept from **CAD → cuts → welds**, validating packaging & serviceability, and documenting the build so it’s repeatable. I care about **design-for-manufacture**, clean layouts, and clear, honest documentation.
 
-    <div class="about-body">
-      <p>
-        I build reliable, serviceable hardware and enjoy taking ideas from
-        <strong>CAD → cuts → welds</strong>. My sweet spot is the intersection of
-        thoughtful mechanical design and hands-on manufacturing—DFM, clean packaging,
-        and clear build docs.
-      </p>
+**Current focus — Custom Go-Kart (live axle):** single-seat platform for reliability and easy service. **212 cc electric-start** four-stroke → **30-series TAV** → **1″ live axle** on a **square-tube weldment** chassis. CAD-driven layout for chain/brake/steering clearances and ergonomics. Built in-house to control cost and learning, with a **custom push-to-start** (integrated to the ES circuit) and a coil **kill-switch**.
 
-      <p>
-        <strong>Currently</strong> I’m designing and fabricating a custom
-        <strong>live-axle go-kart</strong>: square-tube weldment chassis, a
-        <strong>212&nbsp;cc electric-start</strong> four-stroke through a
-        <strong>30-series TAV</strong> to a <strong>1″ axle</strong>. The layout is
-        CAD-driven for ergonomics and chain/brake/steering clearances, and I added a
-        <strong>custom push-to-start</strong> (integrated to the ES circuit) with a
-        coil <strong>kill-switch</strong>. The build is intentionally in-house to control
-        cost and accelerate learning.
-      </p>
+**Skills (core):**
+- **Mechanical Design & CAD:** SolidWorks (weldments, advanced assemblies, drawings), GD&T basics, tolerance stack-ups  
+- **Analysis & CAE:** Hand calcs (structures/mechanics), basic FEA, MATLAB; early trade studies for performance & packaging  
+- **DFM & Manufacturing Planning:** Process planning, kerf/tolerance-aware cut lists, jig/fixture strategy, weld sequencing, inspection approach  
+- **Systems Integration:** Drivetrain alignment & chainline, steering/brake geometry, electrical integration (ES push-to-start, kill-switch, fusing, harness routing)  
+- **Documentation:** BOM/revisions, build instructions, checklists, accessibility remediation standards
 
-      <p>
-        In the past I’ve contributed across engineering environments:
-        <strong>Haas Automation</strong> (shop/fixtures and an HID card-controlled
-        machine-access system), <strong>Lamsco West</strong> (manufacturing engineering for
-        aerospace parts), and university programs including <strong>GHPR</strong> and
-        <strong> SHINE</strong>. I’ve also built scalable accessibility workflows at
-        <strong>UCLA DCP</strong>.
-      </p>
-
-      <p class="about-skills">
-        <em>Focus:</em> Mechanical Design &amp; CAD (SolidWorks weldments/assemblies, drawings),
-        Analysis &amp; Trade Studies (hand calcs, basic FEA, MATLAB), DFM &amp; Manufacturing
-        Planning (kerf-aware cut lists, fixture strategy, weld sequencing), Systems Integration
-        (drivetrain chainline, steering/brake geometry, ES push-to-start &amp; fusing),
-        Documentation (build instructions, checklists, accessibility standards).
-      </p>
-
-      <div class="about-cta">
-        <a class="btn btn--primary" href="#projects">View Projects</a>
-        <a class="btn" href="{{ site.baseurl }}/cv/">View CV</a>
-      </div>
-    </div>
-  </div>
-</section>
+[Jump to Projects](#projects){: .btn .btn--primary }  [View CV]({{ site.baseurl }}/cv/){: .btn }  [LinkedIn](https://www.linkedin.com/in/mark-agban-7501b7245/){: .btn }
 
 ---
 
@@ -79,7 +38,6 @@ author_profile: true
 ---
 
 ## Contact
-<div data-reveal>
-If you want to talk shop or see the build in person:<br>
-<strong>Email:</strong> markagban@gmail.com · <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/markagban">linkedin.com/in/markagban</a>
+<div id="contact" data-reveal>
+**Email:** markagban@gmail.com · **LinkedIn:** <https://www.linkedin.com/in/mark-agban-7501b7245/>
 </div>
