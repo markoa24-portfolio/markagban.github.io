@@ -18,10 +18,8 @@ author:
   name  : "Mark Agban"
   bio: "B.S. Aerospace (UCLA). Mechanical design & manufacturing — CAD → cuts → welds, DFM, rigorous packaging, and clear build docs."
   location : "Los Angeles, CA"
-  employer : ""        # keep blank to hide
-  email : "markagban@gmail.com"
-  github: "markoa24-portfolio"
-  linkedin: "markagban"
+  email: "markagban@gmail05.com"
+  linkedin: "https://www.linkedin.com/in/mark-agban-7501b7245/"
 
 # --- Publication Categories (labels) ---
 publication_category:
