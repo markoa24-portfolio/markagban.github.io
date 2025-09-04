@@ -1,58 +1,20 @@
-<!-- _includes/experience-cards.html -->
-<div class="xp-grid">
-  <!-- Haas -->
-  <div class="xp-card" data-reveal>
-    <div class="xp-head">
-      <h3>Haas Automation</h3>
-      <span class="xp-role">Mechanical/Shop Engineering Intern</span>
-    </div>
-    <ul class="xp-list">
-      <li>Designed & installed an HID card–controlled access system (reader → controller → relay → solenoid) for secured machines.</li>
-      <li>Modeled/fabricated brackets & fixtures; routed/labeled wiring; published operator & sustainment docs.</li>
-    </ul>
-  </div>
-
-  <!-- Lamsco West -->
-  <div class="xp-card" data-reveal>
-    <div class="xp-head">
-      <h3>Lamsco West</h3>
-      <span class="xp-role">Manufacturing Engineering Intern</span>
-    </div>
-    <ul class="xp-list">
-      <li>Spec-driven quality checks; drawings/manufacturing plan reviews; supported nonconformance closure with production/quality.</li>
-      <li>Proposed cutting/fixturing/routing adjustments to reduce scrap and rework on small precision parts.</li>
-    </ul>
-  </div>
-
-  <!-- GHPR -->
-  <div class="xp-card" data-reveal>
-    <div class="xp-head">
-      <h3>GHPR</h3>
-      <span class="xp-role"><!-- YOUR ROLE --></span>
-    </div>
-    <ul class="xp-list">
-      <li><!-- Add a concrete achievement with method/tool and outcome/metric --></li>
-      <li><!-- Add a leadership/design/test highlight and deliverable --></li>
-    </ul>
-  </div>
-
-  <!-- SHINE -->
-  <div class="xp-card" data-reveal>
-    <div class="xp-head">
-      <h3>SHINE</h3>
-      <span class="xp-role"><!-- YOUR ROLE --></span>
-    </div>
-    <ul class="xp-list">
-      <li><!-- Add project focus and concrete result --></li>
-      <li><!-- Add tools/skills and what they enabled --></li>
-    </ul>
-  </div>
-
-  <!-- UCLA DCP -->
-  <div class="xp-card" data-reveal>
-    <div class="xp-head">
-      <h3>UCLA DCP</h3>
-      <span class="xp-role">Lead Accessibility Engineer</span>
-    </div>
-    <ul class="xp-list">
-      <li>Scaled PDF
+<!-- _includes/portfolio-grid.html -->
+<div class="projects-grid">
+  {% assign items = site.portfolio %}
+  {% for p in items %}
+    <a class="project-card" href="{{ site.baseurl }}{{ p.url }}" data-reveal>
+      <div class="project-thumb" style="background-image:url('{{ site.baseurl }}{{ p.thumbnail | default: '/images/placeholder.jpg' }}');"></div>
+      <div class="project-body">
+        <h3 class="project-title">{{ p.title }}</h3>
+        <p class="project-excerpt">{{ p.excerpt }}</p>
+        {% if p.tags %}
+          <div class="project-tags">
+            {% for t in p.tags %}
+              <span class="tag">{{ t }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </a>
+  {% endfor %}
+</div>
